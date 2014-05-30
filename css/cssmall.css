@@ -1,0 +1,68 @@
+h1 {text-align:center;color:red;}
+body {background-color:#eeeeee;}
+fieldset {width: 180px; height: 200px;} /*border:none; border:solid;*/
+textarea {resize:none;}
+
+#wrapper {width: 90%; margin: auto;}
+#header {padding:5px; 
+        background-image:url('../img/background-title.jpg');
+        background-repeat:no-repeat;
+        }
+#content {padding:5px; padding-top: 30px;background-color:#ffffff; margin: auto; text-align:center; min-height: 450px}
+#footer {padding:3px; text-align:center; background-color: #0066ee;}
+
+#box {margin: auto;}
+#box-pic {margin: 20px; width:200px; height:200px}
+#box-text {text-align:left; max-width: 200px; margin-right:20px;}/**/
+
+#cusinfo, #goodsinfo, #msginfo {border:1px solid;}
+
+
+
+.item {padding:2px; text-align:center; width:200px;}
+.loginfo {float:right; padding:1px; margin:1px;}
+.func-add {float: left;}
+.desc {max-width: 180px;}
+.picture {width:110px; height:110px; padding:2px; margin:0 0 0 35px; float:center;} /* */
+
+.uplist {
+        margin-bottom:0; margin-left:100px; border-bottom:none;
+        }
+.uplist > li {
+          font-weight: bold;
+          background-color:white;
+          -webkit-border-radius: 10px;
+           -moz-border-radius: 10px;
+                border-radius: 10px;
+          }
+
+.leftlist {
+        padding:10px;
+        float: left;
+        margin-right: 19px;
+        border-right: 1px solid #ddd;
+}
+.leftlist > li {font-weight:bold;padding:10px;}
+
+.orderlist {margin:auto; text-align:left;}
+.form-label {min-width:100px; border:1px solid;}
+.table-left, .table-right {text-align:left; border:1px solid;}
+
+/*----- checkorder -----*/
+#ordertable{border: 1px solid; border-collapse:collapse; margin:auto}
+#ordertable tr {border: 1px solid;}
+#ordertable td {vertical-align:top; }/*min-width: 200px;*/
+#d2 {border: 1px solid; margin-right: -10px; text-align:left;}
+#d3 {}
+#d4 {}
+#d5 {padding-left: 20px;}
+#checkorder-list {list-style-type: none; text-align:left;}/* */
+#thumbnail {width:120px; height:120px; padding:1px; text-align:center;}
+
+/*----- aboutcredit -----*/
+#aboutcredit {width: 75%; margin: auto;}
+#aboutcredit ul, #aboutus ul {text-align: left;}
+#aboutcredit p, #aboutus p {text-align: left;}
+#aboutus {width: 75%; margin: auto;}/**/
+#pics {margin:auto}
+.aboutimg {width: 200px; height: 150px; margin: 5px}
